@@ -24,6 +24,38 @@
 
 ## Функциональные требования:
  ![User Case](/material/UserCases.png)
+
+ <details>
+  <summary>Код Use Case</summary>
+  
+```plantuml
+
+@startuml
+left to right direction
+actor "Клиент" as client
+
+rectangle  Мойка.ру  {
+  usecase "UC1:Управлять своим профилем" as UC1
+  usecase "UC2:Записаться на мойку" as UC2
+  usecase "UC2.1:Найти мойку" as UC2.1
+  usecase "UC2.2:Выбрать дату и время" as UC2.2
+  usecase "UC2.3:Выбрать услугу" as UC2.3
+  usecase "UC3:Произвести оплату" as UC3
+  usecase "UC4:Отменять услуги" as UC4
+  usecase "UC5:Обратиться в техподдержку" as UC5
+  
+}
+client --> UC1
+client --> UC2
+UC2 --> UC2.1:(include)
+UC2 --> UC2.2:(include)
+UC2 --> UC2.3:(include)
+client --> UC3
+client --> UC4
+client --> UC5
+
+@enduml
+```
 ### Сценарии использования
 #### UC1: Найти автомойку
  <table>
