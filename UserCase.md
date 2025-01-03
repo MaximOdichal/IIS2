@@ -25,7 +25,7 @@
 ## Функциональные требования:
  ![User Case](/material/UserCases.png)
 
- <details>
+<details>
   <summary>Код Use Case</summary>
   
 ```plantuml
@@ -56,6 +56,8 @@ client --> UC5
 
 @enduml
 ```
+</details>
+
 ### Сценарии использования
 #### UC1: Найти автомойку
  <table>
