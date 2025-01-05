@@ -35,13 +35,13 @@
     actor "Клиент" as client
     rectangle "Система оплаты" as r1
     rectangle "Автомойка" {
-        usecase "UC1:Управлять своим профилем" as UC1
+        usecase "UC1:Автоизироваться" as UC1
         usecase "UC2:Записаться на мойку" as UC2
         usecase "UC2.3:Выбрать услугу" as UC2.3
         usecase "UC2.2:Выбрать дату и время" as UC2.2
         usecase "UC2.1:Найти мойку" as UC2.1
         usecase "UC3:Произвести оплату" as UC3
-        usecase "UC4:Отменять услуги" as UC4
+        usecase "UC4:Отменить услуги" as UC4
         usecase "UC5:Обратиться в техподдержку" as UC5
         usecase "Платежная система" as US1
     }
