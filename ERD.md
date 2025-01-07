@@ -1,5 +1,5 @@
-### 3. ERD
-![image](https://github.com/user-attachments/assets/f82b4368-7d8c-4fe9-9a8f-8bc74ad0b688)
+### ERD
+![image]()
 
 
 <details>
