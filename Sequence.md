@@ -5,7 +5,7 @@
 ![Sequence](/material/Sequence.png)
 
 <details>
-  <summary>Код ERD</summary>
+  <summary>Код Sequence diagram</summary>
   
 ```plaintext
 
