@@ -2,8 +2,7 @@
 
 ### Оформление и оплата услуг
 
-
-
+![Sequence](/material/Sequence.png)
 
 <details>
   <summary>Код ERD</summary>
